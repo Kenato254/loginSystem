@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Logout Confirm{% endblock title %}
+{% block body %}
+  <body class="flex justify-center items-center text-center w-full h-screen">
+      <div class="w-80 h-auto border rounded-md p-2">
+        <h1 class="w-full py-2 my-2 text-l-md p-2g font-bold ">Logging out <em>{% firstof user.first_name user.email %}.</em></h1>
+        <h1 class="w-full py-2 my-2">Are you sure you want to sign out?</h1>
+        <div class="flex justify-between w-full py-2 my-2">
+            <a href="{% url 'mainapp:profile-view' %}" class="focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 w-32 mx-2 py-1 text-white my-2 bg-indigo-600 hover:bg-indigo-700 rounded" href="{% url 'mainapp:profile-view' %}">
+              No
+            </a>
+            <a href="{% url 'mainapp:logout-view' %}" class="focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 w-32 mx-2 py-1 text-white my-2 bg-indigo-600 hover:bg-indigo-700 rounded" href="{% url 'mainapp:login-view' %}">
+              Yes
+            </a>
+        </div>
+      </div>
+  </body>
+{% endblock body %}

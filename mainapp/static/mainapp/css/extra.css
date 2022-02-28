@@ -1,0 +1,24 @@
+p.seudo::before{
+    content: '';
+    position: absolute;
+    top: 43%;
+    font-size: 1px;
+    background-color: rgb(189 198 205);
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    width: 176em;
+    height: 1px;
+    left: calc(35%);
+}
+p.seudo::after{
+    content: '';
+    position: absolute;
+    top: 43%;
+    font-size: 1px;
+    background-color: rgb(189 198 205);
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    width: 176em;
+    height: 1px;
+    right: calc(35%);
+}
