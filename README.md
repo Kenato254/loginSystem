@@ -22,5 +22,3 @@
 python manage.py tailwind start
 ### Runserver ###
 * python manage.py runserver
-### Contributor
-* Kennedy Gitonga
