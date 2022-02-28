@@ -2,6 +2,8 @@
 ### Intro ##
 ### This is a simple authenication app developed using Django framework. It's a part of topics I covered during #100DaysOfCode challenge. My motivation to build this project was to put into practise what I learned during the above mentioned challenge as well as to tighten up my Django skills. This mini-app can be easily integrated into a bigger system project that needs an email and a password to authenticate a user. ###
 
+![login-image](screenshot/login.jpg)
+
 ### Features ###
 * Register new user.
 * Login old users using an Email and a Password. 
