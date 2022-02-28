@@ -1,6 +1,7 @@
 ## BASIC LOGIN SYSTEM Built with Django
 ### Intro ##
-### This is a simple authenication app developed using Django framework. It's a part of topics I covered during #100DaysOfCode challenge. My motivation to build this project was to put into practise what I learned during the above mentioned challenge as well as to tighten up my Django skills. This mini-app can be easily integrated into a bigger system project that needs an email and a password to authenticate a user. ###
+### This is a simple authentication app developed using the Django framework. It's a part of the topics I covered during #100DaysOfCode challenge. My motivation to build this project was to put into practice what I learned during the above-mentioned challenge as well as to tighten up my Django skills. This mini-app can be easily integrated into a bigger system project that needs an email and a password to authenticate a user.
+###
 
 ![login-image](screenshot/login.jpg)
 
